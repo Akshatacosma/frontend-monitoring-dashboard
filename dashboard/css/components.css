@@ -1,0 +1,36 @@
+.metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.metric-card {
+    background: var(--card);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+}
+
+.metric-card h3 {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.metric-card span {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.services ul li {
+    background: var(--card);
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.online { color: var(--success); }
+.degraded { color: var(--warning); }
+.down { color: var(--danger); }
